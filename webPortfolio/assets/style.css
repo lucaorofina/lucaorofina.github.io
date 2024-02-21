@@ -101,14 +101,14 @@ nav ul{
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    max-width: 70rem;
+    max-width: 60rem;
     margin: auto;
     position: relative;
 }
 
 .hero img{
-    height: 35rem;
-    width:35rem;
+    height: 20rem;
+    width: 15rem;
 
 }
 
