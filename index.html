@@ -60,15 +60,23 @@
         <p>My goal is to  enter the tech industry as as a fullstack developer. 
             I would like to gain knowledge and experience in software engineering and 
             web app development. 
-            Currently I am working at a reastaurant while studying at CUNY Queens College.
+            Currently I am working at a restaurant while studying at CUNY Queens College.
+            In February, I began a Fullstack Software Development program at CUNY Queensboroough 
+            Community College where industry experts teach us how to use popular development tools and
+            technologies, while getting hands-on experience by creating projects while collaborating on
+            a large group project.
             I am also part of the QC Physics Club, where my role is to help my team develop 
             their website. </p>
     </section>
+
     <!-- Skills section -->
     <section class="skills" id="skills">
         <h2 class="skills-header">My Skills</h2>
         
         <div class="skills-wrapper">
+            <button id="prev-slide" class="slide-button material-symbols-rounded">
+                chevron_left
+              </button>
              <div class="first-set animate__animated animate__pulse">
                 <img
                     src="assets/icons/icons8-python.png"
@@ -90,8 +98,6 @@
                     alt="skill4"
                     loading="lazy"
                     class="icon card">
-            </div>
-            <div class="second-set animate__animated animate__pulse">
                 <img
                     src="assets/icons/icons8-html.png"
                     alt="skill5"
@@ -113,11 +119,21 @@
                     loading="lazy"
                     class="icon card">   
             </div>
-           <div class="button-container">
-            <button class="btn" onclick="prevSlide()" id="prev">Prev</button>
-            <button class="btn" onclick="nextSlide()"id="next">Next</button>
-           </div>
+        
+            <button 
+                id="next-slide" 
+                class="slide-button material-symbols-rounded">
+                chevron_right
+            </button>
+        </div>    
+        <div class="slider-scrollbarr">
+            <div class="scrollbar-track">
+                <div class="scrollbar-thumb">
+                    
+                </div>
+            </div>
         </div>
+        
     </section>
 
 
@@ -125,6 +141,7 @@
     <section class="projects" id="projects">
         <h2 class="projects-title">My Projects</h2>
         <div class="projects-container">
+            <!--
             <div class="projects-container projects-card">
                 <img
                 src="assets/icons/icons8-sign-language-64.png"
@@ -133,26 +150,14 @@
                 class="project-pic">
                 <h3 class="project-title">Sign Language Translator</h3>
                 <p class="project-description">
-                    This project is ........using python and 
-                    the .... API... I used SQL for data base
-                    ..... WRITE MORE
+                    This Machine LearningComputer Vision projects uses various technologies and 
+                    Libraries. Primarily using OpenCV, pandas, num.py in Python.
+                    I had to create a data set of various hand signs using live video feed.
+                    Then, training then....FINISH PROJECT
                 </p>
                 <a href="#" target="_blank" class="project-link">Check it Out</a>
             </div>
-            <div class="projects-container projects-card">
-                <img
-                src="assets/icons/icons8-web-96.png"
-                alt=""
-                loading="lazy"
-                class="project-pic">
-                <h3 class="project-title">Physics Club Webpage</h3>
-                <p class="project-description">
-                    This project is a collaboration with other club members. 
-                    Every week we are 
-                    contributing and making changes to improve the site.
-                </p>
-                <a href="#" target="_blank" class="project-link">Check it Out</a>
-            </div>
+        -->
             <div class="projects-container projects-card">
                 <img
                 src="assets/icons/icons8-wine-64.png"
@@ -170,15 +175,31 @@
             </div>
             <div class="projects-container projects-card">
                 <img
+                src="assets/icons/icons8-web-96.png"
+                alt=""
+                loading="lazy"
+                class="project-pic">
+                <h3 class="project-title">Physics Club Webpage</h3>
+                <p class="project-description">
+                    Recently joined the "Tech Team" of the club, where we meet up weekly to make 
+                    improvement and contribtue to the website. This project is a collaboration with other club members. 
+                    Primarily using JavaScript React framework, along with HTML, and CSS languages.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            
+            <div class="projects-container projects-card">
+                <img
                 src="assets/icons/icons8-game-48.png"
                 alt=""
                 loading="lazy"
                 class="project-pic">
-                <h3 class="project-title">Mini Game</h3>
+                <h3 class="project-title">Brick Mini Game</h3>
                 <p class="project-description">
-                    This project is ........using python and 
-                    the .... API... I used SQL for data base
-                    ..... WRITE MORE
+                    This Web game project is the classic 'Brick Breaker' Game made with vanilla JavaScript. 
+                    It uses simple physics logic to create movement and reactions, while also 
+                    keeping track of the score and lives. Primarily I used the canvas element
+                    to render moving images, key controls and collision detection.
                 </p>
                 <a href="#" target="_blank" class="project-link">Check it Out</a>
             </div>
