@@ -1,1 +1,1 @@
-Hi, I'm Luca Orofina, this is my website I built as a portfolio to practice and demonstrate my skills. I a Computer Science student at Queens College with experience in developing applications using JavaScript, Python, and SQL.
+Hi, I'm Luca Orofina, this is my website I built as a portfolio to practice and demonstrate my skills. I am Computer Science student at Queens College with experience in developing applications using JavaScript, Python, and SQL.
