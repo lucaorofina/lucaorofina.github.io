@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <!--Icons-->
+    <link rel="browser icon" type="image/x-icon" href="assets/icons/icons8-mate-16.png?v=M44lzPylqQ">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png?">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png?">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png?">
+    
+    <link rel="manifest" href="assets/icons/site.webmanifest">
+    
+    <!--animate css-->
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <title>Luca Orofina | Web Developer</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Luca Orofina</h1>
+        <ul class = "navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!--Button for mobile only, hidden button on desktop-->
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img
+        src="assets/images/lucaPlaya.jpeg"
+        alt="luca"
+        loading="lazy"
+        class="hero-img"
+        >
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text"> 
+            Hi, I'm Luca Orofina, a Computer Science student at Queens College with experience
+             in developing applications using JavaScript, Python, and SQL. Being part of the CUNY Software Engineering 
+             Career Track in Web Development program... WRITE MORE
+            </p>
+        </div>
+
+    </section>
+    <!-- More about -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>My goal is to  enter the tech industry as as a fullstack developer. 
+            I would like to gain knowledge and experience in software engineering and 
+            web app development. 
+            Currently I am working at a restaurant while studying at CUNY Queens College.
+            In February, I began a Fullstack Software Development program at CUNY Queensboroough 
+            Community College where industry experts teach us how to use popular development tools and
+            technologies, while getting hands-on experience by creating projects while collaborating on
+            a large group project.
+            I am also part of the QC Physics Club, where my role is to help my team develop 
+            their website. </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skills-header">My Skills</h2>
+        
+        <div class="skills-wrapper">
+             <div class="first-set animate__animated animate__pulse">
+                <img
+                    src="assets/icons/icons8-python.png"
+                    alt="skill1"
+                    loading="lazy"
+                    class="icon card">
+                <img
+                    src="assets/icons/icons8-sql.png"
+                    alt="skill2"
+                    loading="lazy"
+                    class="icon card">
+                <img
+                    src="assets/icons/icons8-react.png"
+                    alt="skill3"
+                    loading="lazy"
+                    class="icon card">
+                <img
+                    src="assets/icons/icons8-git.png"
+                    alt="skill4"
+                    loading="lazy"
+                    class="icon card">
+                <img
+                    src="assets/icons/icons8-html.png"
+                    alt="skill5"
+                    loading="lazy"
+                    class="icon card">
+                <img
+                    src="assets/icons/icons8-css.png"
+                    alt="skill6"
+                    loading="lazy"
+                    class="icon card">    
+                <img
+                    src="assets/icons/icons8-javascript.png"
+                    alt="skill7"
+                    loading="lazy"
+                    class="icon card">
+                <img
+                    src="assets/icons/icons8-bootstrap.png"
+                    alt="skill8"
+                    loading="lazy"
+                    class="icon card">   
+            </div>
+        
+        </div>
+        
+    </section>
+
+
+    <!-- Projects section NEEDS IMAGES AND DESCRIPTIONS-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-container">
+            
+            <div class="projects-container projects-card">
+                <img
+                src="assets/icons/icons8-wine-64.png"
+                alt=""
+                loading="lazy"
+                class="project-pic">
+                <h3 class="project-title">Wine Classifier</h3>
+                <p class="project-description">
+                    My group and I worked on a project for our Software Engineering  class (CS 370)
+                    we used a machine learning algorithm known as Random Forest to determine 
+                    the quality of a wine based on its attributes. We used a large dataset to 
+                    "teach" the algorithm what qualities made wine good, and which made it bad quality.
+                </p>
+                <a href="https://github.com/irna05ex/CS370-Random-Forest-Wine" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="projects-container projects-card">
+                <img
+                src="assets/icons/icons8-web-96.png"
+                alt=""
+                loading="lazy"
+                class="project-pic">
+                <h3 class="project-title">Dark Mode Chrome Extension</h3>
+                <p class="project-description">
+                    Recently joined the "Tech Team" of the club, where we meet up weekly to make 
+                    improvement and contribtue to the website. This project is a collaboration with other club members. 
+                    Primarily using JavaScript React framework, along with HTML, and CSS languages.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="projects-container projects-card">
+                <img
+                src="assets/icons/icons8-github.png"
+                alt=""
+                loading="lazy"
+                class="project-pic">
+                <h3 class="project-title">Patient Service Application</h3>
+                <p class="project-description">
+                    QCC Software Engineering Micro-Credential Career Track in Web Development 
+                    Repository with a full-stack web application in collaboration with other members.
+                    
+
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="projects-container projects-card">
+                <img
+                src="assets/icons/icons8-game-48.png"
+                alt=""
+                loading="lazy"
+                class="project-pic">
+                <h3 class="project-title">Brick Mini Game</h3>
+                <p class="project-description">
+                    This Web game project is the classic 'Brick Breaker' Game made with vanilla JavaScript. 
+                    It uses simple physics logic to create movement and reactions, while also 
+                    keeping track of the score and lives. Primarily I used the canvas element
+                    to render moving images, key controls and collision detection.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact info -->
+<section class="contact" id="contact">
+    <h2> Contact Me</h2>
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <form 
+            action="https://formspree.io/f/mayrokao" 
+            method="POST"
+            >
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="sender-name"
+                        placeholder="Enter Your Name"
+                        class="input-field"
+                        required>
+                </div>
+                <div class="form-control">
+                    <label for="email">E-Mail</label>
+                    <input
+                        type="text"
+                        id="email"
+                        name="sender-email"
+                        placeholder="Enter Your Email"
+                        class="input-field"
+                        required>
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        cols="30"
+                        rows="10"
+                        name="sender-name"
+                        placeholder="Enter Your Message"
+                        class="input-field"
+                        required></textarea>
+                </div>
+                <input
+                        type="submit"
+                        value="SUBMIT"
+                        id="submit-btn"
+                        class="submit-btn"> 
+                </form>
+            </div>
+        
+</section>
+
+    <!-- Social accounts - Fixed to the right -->
+<div class="socials">
+    <a href="https://www.linkedin.com/in/luca-orofina-babaa1170" target="_blank"
+        ><img
+            src="assets/icons/icons8-linkedin.png"
+            alt="LinkedIn"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/lucaorofina" target="_blank"
+          ><img 
+          src="assets/icons/icons8-github.png" 
+          alt="Github" 
+          class="socicon"
+        /></a>
+        <a href="https://www.instagram.com/luca.oro" target="_blank"
+          ><img
+            src="assets/icons/icons8-insta.png"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="mailto:luca.orofina@gmail.com" target="_blank"
+          ><img
+            src="assets/icons/icons8-gmail.png"
+            alt="Gmail"
+            loading="lazy"
+            class="socicon"
+        /></a>
+    </div>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+        <img
+        src="assets/icons/icons8-scroll-up.png"
+        class="socicon up-arrow"
+        alt="scroll-up">
+    </i>
+        <!-- Footer section -->
+    <footer>
+        <pclass="copy">&copy;Copyright 2024</p>
+        <p class="copy">Built by<a href="mailto:luca.orofina@gmail.com"> Luca Orofina</a></p>
+    </footer>
+        <!-- Website scripts -->
+        <script src="assets/script.js"></script>
+
+        <!-- Ion icons scripts -->
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+   
+</body>
+</html>
